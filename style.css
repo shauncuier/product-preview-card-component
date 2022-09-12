@@ -1,28 +1,86 @@
 @import url("./reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 
-
-
-.main{
-    max-width: 1440px;
-    background-color: hsl(30, 38%, 92%);
-    margin: auto;
-    padding: 200px;
+.main {
+  max-width: 1440px;
+  background-color: hsl(30, 38%, 92%);
+  margin: auto;
+  padding: 200px;
 }
 
-
-.content{
-    max-width: 600px;
-    margin: auto;
-    background-color: hsl(0, 0%, 100%);
-    display: flex;  
-    border-radius: 10px;
+.content {
+  max-width: 600px;
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  border-radius: 10px;
 }
 
-.main-image{
-    width: 300px;
+.main-image {
+  width: 300px;
+  border-radius: 10px 0 0 10px;
+  height: 100%;
 }
-button{
-    background-color: hsl(158, 36%, 37%);
+button {
+  background-color: #3C8268;
+  /* margin: 30px 0 30px 30px; */
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-family: Montserrat;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
 }
+button:hover{
+    background-color: #1A4031;
+}
+.aside {
+  padding: 25px;
+}
+
+.perfume {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+
+.aside h2 {
+  color: hsl(212, 21%, 14%);
+  font-family: Fraunces;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.desc {
+  color: hsl(228, 12%, 48%);
+  margin-top: 30px;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.price {
+  display: flex;
+  margin-top: 20px;
+}
+
+.offer-price {
+  padding: 5px;
+  font-size: 30px;
+  font-family: Fraunces;
+  color: hsl(158, 36%, 37%);
+}
+
+.main-price {
+    padding: 5px;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+    margin-top: 7px;
+  }
+
 
